@@ -1,5 +1,6 @@
 .input {
   display: flex;
   align-self: center;
+  justify-content: center;
   gap: 0.5rem;
 }
