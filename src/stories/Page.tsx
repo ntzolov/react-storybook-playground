@@ -4,6 +4,7 @@ import { Header } from './Header/Header';
 import './page.css';
 import Counter from './Counter/Counter';
 import Rating from './Rating/Rating';
+import TextInput from './TextInput/TextInput';
 
 type User = {
   name: string;
@@ -31,6 +32,11 @@ export const Page: React.FC = () => {
         <div className='stars'>
           <Rating />
         </div>
+      </div>
+
+      <div className='input-component'>
+        <p>Input component:</p>
+        <TextInput name='name' type='text' label='Name' placeholder='Enter your name' />
       </div>
     </article>
   );

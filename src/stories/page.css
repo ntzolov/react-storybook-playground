@@ -18,3 +18,10 @@ article {
   gap: 0.5rem;
   justify-content: center;
 }
+
+.input-component {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
