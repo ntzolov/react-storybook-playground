@@ -1,0 +1,5 @@
+.input {
+  display: flex;
+  align-self: center;
+  gap: 0.5rem;
+}
