@@ -21,18 +21,20 @@ export default function Counter({ backgroundColor = '#fff', color = '#000' }: Co
   return (
     <div className='counter' style={{ backgroundColor }}>
       <span style={{ color }}>Counter: {counter}</span>
-      <Button
-        onClick={() => handleOnClick('Increment')}
-        size='small'
-        backgroundColor='#00ff61'
-        label='+'
-      />
-      <Button
-        onClick={() => handleOnClick('Decrement')}
-        size='small'
-        backgroundColor='#00ff61'
-        label='-'
-      />
+      <div className='flex gap-3'>
+        <Button
+          onClick={() => handleOnClick('Increment')}
+          size='small'
+          backgroundColor='#00ff61'
+          label='+'
+        />
+        <Button
+          onClick={() => handleOnClick('Decrement')}
+          size='small'
+          backgroundColor='#00ff61'
+          label='-'
+        />
+      </div>
     </div>
   );
 }
