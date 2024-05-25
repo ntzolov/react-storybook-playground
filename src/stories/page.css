@@ -5,3 +5,16 @@ article {
   /* align-items: center; */
   width: 500px;
 }
+
+.counter-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rating-component {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
