@@ -29,15 +29,16 @@ export const Page: React.FC = () => {
 
       <div className='rating-component'>
         <p>Rating component:</p>
-        <div className='stars'>
+        <div className='flex justify-center'>
           <Rating />
         </div>
       </div>
 
       <div className='input-component'>
         <p>Input component:</p>
-        <TextInput name='name' type='text' label='Name' placeholder='Enter your name' />
+        <TextInput name='name' type='text' label='Name' placeholder='Enter your name...' />
       </div>
+      <h1 className='text-blue-700 font-bold text-3xl'>Tailwind added 🇧🇬</h1>
     </article>
   );
 };

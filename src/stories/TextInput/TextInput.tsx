@@ -17,8 +17,11 @@ export default function TextInput({ name, type, label, placeholder }: TextInputT
 
   return (
     <div className='input'>
-      <label htmlFor={name}>{label}</label>
+      <label className='flex justify-center items-center text-slate-200' htmlFor={name}>
+        {label}
+      </label>
       <input
+        className='w-full bg-neutral-600 p-1 border border-slate-200 rounded-md focus:outline-none focus:ring focus:ring-orange-400'
         type={type}
         name={name}
         value={value}
