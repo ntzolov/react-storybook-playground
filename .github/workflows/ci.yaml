@@ -21,5 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install --force
 
-      - name: Run the tests
-        run: npm test
+      - name: Run the tests & code coverage
+        run: npm test -- --coverage
+
+      - name: Upload code coverage to Codecov
+        uses: codecov/codecov-action@v2
