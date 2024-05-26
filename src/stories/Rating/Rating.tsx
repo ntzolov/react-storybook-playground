@@ -12,7 +12,7 @@ export type RatingProps = {
 };
 
 const Star = ({ selected, onSelect = (f) => f }: StarProps) => (
-  <FaStar className='star' color={selected ? '#cc55cc' : '#f2f2f2'} onClick={onSelect} />
+  <FaStar className='star' color={selected ? '#ff8300' : '#f2f2f2'} onClick={onSelect} />
 );
 
 export default function Rating({ number = 10 }: RatingProps) {
