@@ -15,3 +15,10 @@ export const Default: Story = {
     color: '#000',
   },
 };
+
+export const Yellow: Story = {
+  args: {
+    backgroundColor: "#ebe560",
+    color: "#096e0e"
+  }
+};
