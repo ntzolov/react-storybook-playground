@@ -1,4 +1,8 @@
-# React + TypeScript + Vite
+[![CI workflow](https://github.com/ntzolov/react-storybook-playground/actions/workflows/ci.yaml/badge.svg)](https://github.com/ntzolov/react-storybook-playground/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/github/ntzolov/react-storybook-playground/graph/badge.svg?token=TVVKQNGX2P)](https://codecov.io/github/ntzolov/react-storybook-playground)
+
+# Storybook --- CI/CD --- Code coverage | with:
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
